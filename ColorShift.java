@@ -4,11 +4,15 @@ import java.awt.Color;
 
 /**
  *	<p>
- *	ColorShift analyzes a Picture, sorting all the pixels in the Picture by their respective average RGB values.
+ *	ColorShift takes an image as a command line argument in a .jpg, .gif, or .png format.
+ *
+ *	It then creates a new image that sorts the pixels in the image based on their respective average RGB values, in ascending order.
+
+ *	Here is an example:
  *	</p>
  *
- *	<img src="../../resources/starrynight.jpg" width = "250" height = "250">
- *	<img src="../../resources/starrynightShift.jpg" width = "250" height = "250">
+ *	<img src="../../resources/starrynight.jpg" width = "300" height = "250">
+ *	<img src="../../resources/starrynightShift.jpg" width = "300" height = "250">
  *
  *	@author Peter Tran
  */
